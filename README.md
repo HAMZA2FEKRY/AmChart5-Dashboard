@@ -17,7 +17,4 @@ This repository contains a visualization dashboard project titled "Dashboard Our
 - **AmChart5**: For creating interactive visualizations.
 - **Git**: For version control.
 
-## Setup Instructions
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/HAMZA2FEKRY/AmChart5-Dashboard.git
+![image](https://github.com/user-attachments/assets/60c37d6f-5fd3-47cb-9c8d-a64e81e385d6)
