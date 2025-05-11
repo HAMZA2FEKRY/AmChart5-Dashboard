@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart with Flask and amCharts 5</title>
+
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+
+    <script src="{{ url_for('static', filename='chdata.js') }}" ></script>
+   
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   <style> 
+     
+   </style>
+</head>
+<body>
+<h1>Dashboard Our Company Performance</h1>
+
+  
+    <div id = "paychartdiv"></div>
+
+    <div id = "controldiv"></div>
+
+    <div id = "chdatadiv"></div>
+
+    
+    <div id = "chartdiv"></div>
+
+    <div id = "chartdiv5"></div>
+    
+
+
+     
+</body>
+</html>
+
+
+
+
+
+

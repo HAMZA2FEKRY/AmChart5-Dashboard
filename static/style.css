@@ -1,0 +1,71 @@
+body
+{
+ /* background-color: aliceblue;*/
+  background-image: url("img.jpg");
+  background-size:contain ;
+  opacity: 20;
+}
+h1
+{
+ 
+  text-align: center;
+  position: relative;
+  
+}
+.background-image {
+  filter: brightness(90%); /* تعديل النسبة حسب الدرجة المطلوبة */
+  
+}
+#paychartdiv
+{
+    
+    text-align: center;
+    display:flex;
+    width: 54%;
+    height: 180px;
+    float:top right;
+    position:relative;  
+    left : 0px;
+    top: 420px; 
+}
+#controldiv
+{
+    width: 50%; /* Set wid'th as needed */
+    height: 250px; /* Set height as needed */
+    float: bottom right;
+    position: relative;
+    left: 720px;
+    bottom: 130px;
+  
+}
+#chdatadiv
+{
+    
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    bottom: 400px;
+    float: bottom left ;
+}
+#chartdiv
+{
+    
+   float:top left;
+    width: 45%;
+    height: 370px;
+    position:relative;
+    right: 20px;
+    left: 770px;
+    bottom: 290px;
+   
+}
+
+#chartdiv5
+{
+  width: 50%;
+  height: 220px;
+  position:relative;
+  left: 50px;
+  bottom: 750px;
+}
